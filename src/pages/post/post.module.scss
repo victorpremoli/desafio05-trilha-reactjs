@@ -1,1 +1,48 @@
-// TODO
+.imgContainer {
+  width: 1440px;
+  height: 400px;
+  margin: 3rem auto;
+}
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--heading);
+    margin-bottom: 2rem;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    color: var(--info);
+    margin-bottom: 5rem;
+    
+    p {
+      margin-left: 1rem;
+    }
+  }
+  .heading {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--heading);
+    margin-bottom: 3rem;
+
+  }
+
+  .body {
+    text-align: justify;
+    margin-bottom: 4rem;
+    color: var(--body);
+     
+    P {
+      margin-bottom: 2rem ;
+    }
+  
+  }
+}
+
